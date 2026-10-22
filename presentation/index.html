@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thunder Mounts — Website Redesign &amp; Digital Commerce System · Proposal</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="../demo/assets/img/logo-full.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="deck">
+
+<!-- 01 COVER -->
+<section class="slide dark cover">
+  <div class="left">
+    <img class="logo" src="../demo/assets/img/logo.jpg" alt="Thunder Mounts logo">
+    <span class="eyebrow">Website Redesign Proposal</span>
+    <h1>Thunder Mounts<br>Website Redesign &amp;<br><span>Digital Commerce System</span></h1>
+    <p class="sub">A unified storefront, dealer portal, e-commerce back office and content management system — designed around how Thunder Mounts sells.</p>
+    <div class="meta"><div><strong>Prepared for</strong>Thunder Mounts Garage Systems</div><div><strong>Includes</strong>Interactive prototype · Admin demo · Scope</div><div><strong>Status</strong>Proposal for discussion</div></div>
+  </div>
+  <div class="right"><img src="../demo/assets/img/hero-dual-sets.jpg" alt="Thunder Mounts dual sets installed in a white garage"><span class="cap">Actual Thunder Mounts installation photo</span></div>
+</section>
+
+<!-- 02 UNDERSTANDING THE BUSINESS -->
+<section class="slide">
+  <span class="eyebrow">01 · Understanding the business</span>
+  <h2 class="title">A product company with one clear promise: Value. Symmetry. Safety.</h2>
+  <div class="cols c21 top" style="margin-top:1em">
+    <div class="stack">
+      <p class="sub">Thunder Mounts designs engineered mounting systems for garage door openers and door track — a modern replacement for the perforated angle iron installers have used for decades. The brand calls this the <strong>VSS™ Installation Standard</strong>.</p>
+      <div class="cols c3 top" style="gap:1em;flex:none">
+        <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div><h3>What they sell</h3><p>Opener mounts (TMS, TMX, TML), Marantec-style mounts (TMMRT), track mount sets (TMGT) in 12–29 in. lengths, plus selected openers, doors and Thunder Lights (in development).</p></div>
+        <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3>Who buys</h3><p>Garage door installers and door companies, contractors and builders, homeowners finishing a garage, and automotive enthusiasts who care how the space looks.</p></div>
+        <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Brand promise</h3><p>“Engineered for strength, clean aesthetics and reliable results.” The difference is visual and immediate — which makes photography and product clarity central to the website.</p></div>
+      </div>
+      <p class="note">Sources: thundermounts.com homepage, product catalog and product pages (reviewed while preparing this proposal). Product names and list prices in the prototype reflect the public catalog.</p>
+    </div>
+    <div class="photo"><img src="../demo/assets/img/set.jpg" alt="Thunder Mounts set installed"><span class="cap">Thunder Mounts set — actual installation</span></div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 03 CURRENT WEBSITE -->
+<section class="slide gray">
+  <span class="eyebrow">02 · Current website experience</span>
+  <h2 class="title">What we observed on thundermounts.com today</h2>
+  <div class="cols c12 top" style="margin-top:.6em">
+    <div class="stack">
+      <p class="sub" style="font-size:.95em">A fair, factual review of the live site. The current site communicates the core message and already sells online; the opportunities below are about depth, structure and control.</p>
+      <ul class="list obs" style="font-size:.92em">
+        <li><div><strong>Built on Wix</strong> with a store, blog, members area and a mounting-instructions page. The homepage is a single long page led by a large text statement and installation photos.</div></li>
+        <li><div><strong>Catalog of 19 listings</strong> under “All Products” with short descriptions (often one or two lines) and prices from $149.99 to $2,200. Some listings share the same photos; one door product shows $0.00 with a size option; one SKU label does not match its product name.</div></li>
+        <li><div><strong>No dedicated dealer experience is publicly visible</strong> — no dealer pricing, application form or dealer ordering flow could be found without an account. (A generic members page exists.)</div></li>
+        <li><div><strong>Navigation and content</strong> are page-based; sizing guidance, compatibility and “what’s in the box” are not presented consistently per product.</div></li>
+        <li><div><strong>Strong assets to keep:</strong> the logo, the real installation photography, the before/after comparison and the “Call or text 805-338-6680” prominence.</div></li>
+      </ul>
+      <p class="note">We did not measure site performance or search rankings for this proposal and make no claims about them.</p>
+    </div>
+    <div class="stack">
+      <div class="browser" style="height:auto"><div class="bar"><i></i><i></i><i></i><span class="url">thundermounts.com — representative structure</span></div><div class="screen" style="padding:1.2em;background:#fff">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1em"><img src="../demo/assets/img/logo.jpg" alt="" style="height:2.2em"><span style="font-weight:800;font-size:.9em">Call or Text 805-338-6680</span></div>
+        <p style="font-size:.9em;font-weight:700;line-height:1.5;margin-bottom:1em">ThunderMounts sets the standard in installation excellence. Our advanced mounting systems for garage doors and openers are designed for today and prepared for tomorrow…</p>
+        <img src="../demo/assets/img/hero-dual-sets.jpg" alt="" style="aspect-ratio:16/8;object-fit:cover;border-radius:4px;margin-bottom:.8em">
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6em"><img src="../demo/assets/img/before.jpg" alt="" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px"><img src="../demo/assets/img/after.jpg" alt="" style="aspect-ratio:4/3;object-fit:cover;border-radius:4px"></div>
+      </div></div>
+      <div class="cols c3" style="gap:.7em;flex:none">
+        <div class="card" style="padding:.9em"><span class="tag amber">Opportunity</span><p style="margin-top:.5em"><strong>Shopping</strong> — filters, sizing guidance, richer product pages, cart &amp; checkout clarity.</p></div>
+        <div class="card" style="padding:.9em"><span class="tag amber">Opportunity</span><p style="margin-top:.5em"><strong>Dealers</strong> — application, approval, dealer pricing and reordering.</p></div>
+        <div class="card" style="padding:.9em"><span class="tag amber">Opportunity</span><p style="margin-top:.5em"><strong>Control</strong> — one place to manage products, orders, pages, SEO and media.</p></div>
+      </div>
+    </div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 04 VISION -->
+<section class="slide dark">
+  <span class="eyebrow">03 · Our vision</span>
+  <h2 class="title">Industrial, premium, product-first.</h2>
+  <div class="cols c12 top" style="margin-top:.5em">
+    <div class="stack">
+      <p class="sub">Dark surfaces showcase the hardware photography; white and light-gray surfaces keep product listings, checkout and admin screens highly readable. Thunder red is reserved for calls to action and key accents.</p>
+      <div>
+        <div class="eyebrow" style="margin-bottom:.5em">Proposed palette (tuned to the official logo)</div>
+        <div class="swatches">
+          <div class="sw" style="background:#17191C;color:#fff;border-color:rgba(255,255,255,.15)"><strong>Charcoal</strong><span>#17191C</span></div>
+          <div class="sw" style="background:#272B30;color:#fff"><strong>Graphite</strong><span>#272B30</span></div>
+          <div class="sw" style="background:#D11F2B;color:#fff"><strong>Thunder Red</strong><span>#D11F2B · from logo</span></div>
+          <div class="sw" style="background:#FFFFFF;color:#17191C"><strong>White</strong><span>#FFFFFF</span></div>
+          <div class="sw" style="background:#F3F4F6;color:#17191C"><strong>Light Gray</strong><span>#F3F4F6</span></div>
+          <div class="sw" style="background:#A7ADB4;color:#17191C"><strong>Steel</strong><span>#A7ADB4</span></div>
+        </div>
+      </div>
+      <div class="card type-sample"><div class="eyebrow" style="margin-bottom:.4em">Typography · Inter</div><div class="h">The new installation standard.</div><div class="b">Bold, clear headings with generous weight contrast. Body copy at comfortable sizes for installers reading on a phone in a garage.</div></div>
+      <p class="note">Design principles: restrained motion, no heavy gradients, consistent 6–10 px radii, accessible contrast, real product photography only.</p>
+    </div>
+    <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">thundermounts.com — homepage concept</span></div><div class="screen">
+      <div class="m-announce">Dealer program now accepting applications — apply online in minutes.</div>
+      <div class="m-header"><img src="../demo/assets/img/logo.jpg" alt=""><nav><span>Shop Products ▾</span><span>Dealer Program</span><span>About</span><span>Resources</span><span>Contact</span></nav><div class="cta"><span class="m-btn outline">Dealer Login</span><span class="m-btn dark">Cart</span></div></div>
+      <div class="m-hero"><div class="copy"><div class="eyebrow">The VSS™ Installation Standard</div><h3>The new installation standard for garage doors and openers.</h3><p>Thunder Mounts replaces outdated <span style="color:#F28B8B">angle iron</span> with engineered mounting systems. Value. Symmetry. Safety.</p><div class="btns"><span class="m-btn">Shop Products →</span><span class="m-btn light">Become a Dealer</span></div></div><div class="img"><img src="../demo/assets/img/hero-dual-sets.jpg" alt=""></div></div>
+      <div class="m-strip"><div>V · Value</div><div>S · Symmetry</div><div>S · Safety</div></div>
+    </div></div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 05 HOMEPAGE -->
+<section class="slide gray">
+  <span class="eyebrow">04 · Proposed homepage</span>
+  <h2 class="title">Immediately clear: what Thunder Mounts sells and why it’s different</h2>
+  <div class="cols c21 top stretch" style="margin-top:.4em">
+    <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">thundermounts.com</span></div><div class="screen">
+      <div class="m-header"><img src="../demo/assets/img/logo.jpg" alt=""><nav><span>Shop Products ▾</span><span>Dealer Program</span><span>About</span><span>Resources</span><span>Contact</span></nav><div class="cta"><span class="m-btn outline">Dealer Login</span><span class="m-btn">Shop</span></div></div>
+      <div class="m-hero" style="min-height:8em"><div class="copy"><h3 style="font-size:1.3em">The new installation standard for garage doors and openers.</h3><div class="btns"><span class="m-btn">Shop Products</span><span class="m-btn light">Become a Dealer</span></div></div><div class="img"><img src="../demo/assets/img/hero-dual-sets.jpg" alt=""></div></div>
+      <div class="m-section"><h4>Shop by category</h4><div class="m-cats"><div><img src="../demo/assets/img/tm-mount-1.jpg" alt=""><span>Opener Mounts</span></div><div><img src="../demo/assets/img/tmmrt-2.jpg" alt=""><span>Marantec Mounts</span></div><div><img src="../demo/assets/img/tmgt-1.jpg" alt=""><span>Track Mount Sets</span></div><div><img src="../demo/assets/img/sommer-1.jpg" alt=""><span>Openers</span></div><div><img src="../demo/assets/img/wayne-dalton.jpg" alt=""><span>Garage Doors</span></div></div></div>
+      <div class="m-section" style="background:#F3F4F6"><h4>Installer favorites</h4><div class="m-grid">
+        <div class="m-card"><img src="../demo/assets/img/tm-mount-1.jpg" alt=""><div class="b"><small>Opener Mounts</small><strong>TMS-12 Opener Mount</strong><em>$490.00</em><span class="btn-mini">Add to Cart</span></div></div>
+        <div class="m-card"><img src="../demo/assets/img/tm-mount-2.jpg" alt=""><div class="b"><small>Opener Mounts</small><strong>TMX-19 Opener Mount</strong><em>$523.00</em><span class="btn-mini">Add to Cart</span></div></div>
+        <div class="m-card"><img src="../demo/assets/img/tmgt-1.jpg" alt=""><div class="b"><small>Track Mount Sets</small><strong>TMGT-12 Track Mount Set</strong><em>$715.00</em><span class="btn-mini">Add to Cart</span></div></div>
+        <div class="m-card"><img src="../demo/assets/img/tmgt-19.jpg" alt=""><div class="b"><small>Track Mount Sets</small><strong>TMGT-24 Track Mount Set</strong><em>$743.00</em><span class="btn-mini">Add to Cart</span></div></div>
+      </div></div>
+    </div></div>
+    <div class="stack">
+      <ul class="list" style="font-size:.92em">
+        <li><div><strong>Announcement bar</strong> for promotions and dealer news</div></li>
+        <li><div><strong>Hero</strong> with real installation photography, one headline, two CTAs: <em>Shop Products</em> and <em>Become a Dealer / Dealer Login</em></div></li>
+        <li><div><strong>VSS strip</strong> — Value · Symmetry · Safety as the brand signature</div></li>
+        <li><div><strong>Category tiles</strong> and <strong>featured products</strong> with price and add-to-cart</div></li>
+        <li><div><strong>Before &amp; after</strong> comparison using the existing photos</div></li>
+        <li><div><strong>Benefits, installation &amp; compatibility</strong> blocks with sizing guidance</div></li>
+        <li><div><strong>Reviews</strong> (moderated), <strong>resources</strong>, newsletter and a complete footer</div></li>
+      </ul>
+      <div class="cols c2" style="gap:.6em;flex:none"><div class="photo" style="aspect-ratio:4/3"><img src="../demo/assets/img/before.jpg" alt="Before"><span class="label">Before</span></div><div class="photo after" style="aspect-ratio:4/3"><img src="../demo/assets/img/after.jpg" alt="After"><span class="label">After</span></div></div>
+      <p class="note">Fully interactive in the prototype: <strong>demo/index.html</strong>. Responsive for desktop, tablet and mobile.</p>
+    </div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 06 PRODUCTS & SHOPPING -->
+<section class="slide">
+  <span class="eyebrow">05 · Products &amp; shopping experience</span>
+  <h2 class="title">Find the right mount in three clicks</h2>
+  <div class="cols c2 top stretch" style="margin-top:.4em;gap:1.4em">
+    <div class="stack" style="display:flex;flex-direction:column;min-height:0">
+      <div class="browser" style="flex:1"><div class="bar"><i></i><i></i><i></i><span class="url">/shop — catalog with filters, search &amp; sort</span></div><div class="screen"><div class="m-shop">
+        <div class="m-filters"><h5>Category</h5><div class="on">All products</div><div>Opener Mounts</div><div>Marantec Mounts</div><div>Track Mount Sets</div><div>Openers</div><h5 style="margin-top:.8em">Max length</h5><div>12 in. · 19 in.</div><div>24 in. · 29 in.</div></div>
+        <div><div class="m-toolbar"><span class="m-input">🔍 Search name, model or SKU</span><span class="m-input">Sort: Price low → high</span></div><div class="m-grid" style="grid-template-columns:repeat(3,1fr)">
+          <div class="m-card"><img src="../demo/assets/img/tm-mount-1.jpg" alt=""><div class="b"><strong>TMS-12</strong><em>$490.00</em></div></div>
+          <div class="m-card"><img src="../demo/assets/img/tmmrt-2.jpg" alt=""><div class="b"><strong>TMMRT-12</strong><em>$490.00</em></div></div>
+          <div class="m-card"><img src="../demo/assets/img/tm-mount-2.jpg" alt=""><div class="b"><strong>TMX-19</strong><em>$523.00</em></div></div>
+          <div class="m-card"><img src="../demo/assets/img/tm-mount-3.jpg" alt=""><div class="b"><strong>TML-24</strong><em>$523.00</em></div></div>
+          <div class="m-card"><img src="../demo/assets/img/tmgt-1.jpg" alt=""><div class="b"><strong>TMGT-12</strong><em>$715.00</em></div></div>
+          <div class="m-card"><img src="../demo/assets/img/tmgt-29.jpg" alt=""><div class="b"><strong>TMGT-29</strong><em>$754.00</em></div></div>
+        </div></div>
+      </div><div class="m-drawer"><div class="h">Your cart (2)</div><div class="m-line"><img src="../demo/assets/img/tmgt-1.jpg" alt=""><div><strong>TMGT-12 Track Mount Set</strong><small>Qty 1 · $715.00</small></div><b>$715.00</b></div><div class="m-line"><img src="../demo/assets/img/tm-mount-1.jpg" alt=""><div><strong>TMS-12 Opener Mount</strong><small>Qty 2 · $490.00</small></div><b>$980.00</b></div><div class="f"><div class="row"><span>Subtotal</span><b>$1,695.00</b></div><span class="m-btn" style="display:block;text-align:center;margin-top:.5em">Proceed to Checkout</span></div></div></div></div>
+    </div>
+    <div class="stack" style="display:flex;flex-direction:column;min-height:0">
+      <div class="browser" style="flex:1"><div class="bar"><i></i><i></i><i></i><span class="url">/products/tmgt-12 — product detail</span></div><div class="screen"><div class="m-pdp">
+        <div class="g"><img src="../demo/assets/img/tmgt-1.jpg" alt=""><div class="thumbs"><img src="../demo/assets/img/tmgt-1.jpg" alt=""><img src="../demo/assets/img/tmgt-2.jpg" alt=""><img src="../demo/assets/img/tmgt-3.jpg" alt=""></div></div>
+        <div><span class="tag red">Track Mount Sets</span><h3>TMGT-12 Track Mount Set</h3><small style="color:#5B6168">Model TMGT-12 · SKU TMGT-12</small><div class="price">$715.00</div><div class="stock">● In stock</div><p>Overhead garage door track mount set for one door. 12-inch maximum length. Online instructions, chrome ring and hardware included.</p><div class="buy"><span class="qty">− 1 +</span><span class="m-btn" style="flex:1;text-align:center">Add to Cart</span></div><div class="m-tabs"><span class="on">Description</span><span>Specifications</span><span>In the box</span><span>Installation</span><span>FAQ</span><span>Reviews</span></div></div>
+      </div></div></div>
+      <ul class="list" style="font-size:.85em;columns:2;column-gap:1.5em;flex:none">
+        <li><div>Category &amp; length filters, search, sort</div></li><li><div>Quick view and add to cart from the grid</div></li><li><div>Sale vs. regular price, availability labels</div></li><li><div>Gallery, specs, what’s in the box</div></li><li><div>Installation PDF, compatibility, FAQs</div></li><li><div>Related products and moderated reviews</div></li>
+      </ul>
+      <p class="note">Specifications marked “to verify” in the prototype are placeholders until Thunder Mounts confirms dimensions, materials and compatibility.</p>
+    </div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 07 CHECKOUT -->
+<section class="slide gray">
+  <span class="eyebrow">06 · Secure checkout</span>
+  <h2 class="title">A clear, trustworthy path from cart to confirmation</h2>
+  <div class="cols c21 top stretch" style="margin-top:.4em">
+    <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">🔒 thundermounts.com/checkout</span></div><div class="screen"><div class="m-checkout">
+      <div>
+        <div class="m-box"><h5>1 · Contact &amp; shipping address</h5><div class="m-fields"><div class="m-field">Email</div><div class="m-field">Phone</div><div class="m-field">First name</div><div class="m-field">Last name</div><div class="m-field full">Street address</div><div class="m-field">City</div><div class="m-field">State / ZIP</div></div></div>
+        <div class="m-box"><h5>2 · Shipping method</h5><div class="m-opt on"><i></i><strong>Ground · 5–7 business days</strong><span>$24.00</span></div><div class="m-opt"><i></i><strong>Expedited · 2–3 business days</strong><span>$58.00</span></div></div>
+        <div class="m-box"><h5>3 · Payment</h5><div class="m-opt on"><i></i><strong>Credit / debit card — hosted secure fields</strong><span class="pl st">stripe</span></div><div class="m-opt"><i></i><strong>PayPal</strong><span class="pl pp">PayPal</span></div><div class="m-field full" style="margin-top:.4em">•••• •••• •••• 4242 &nbsp;&nbsp; MM/YY &nbsp;&nbsp; CVC</div></div>
+        <span class="m-btn" style="display:block;text-align:center;padding:.8em">🔒 Place order</span>
+      </div>
+      <div><div class="m-box"><h5>Order summary</h5><div class="m-line" style="padding:.4em 0"><img src="../demo/assets/img/tmgt-1.jpg" alt=""><div><strong>TMGT-12 Track Mount Set</strong><small>Qty 1</small></div><b>$715.00</b></div><div class="m-line" style="padding:.4em 0"><img src="../demo/assets/img/tm-mount-1.jpg" alt=""><div><strong>TMS-12 Opener Mount</strong><small>Qty 2</small></div><b>$980.00</b></div><div class="m-field full" style="margin:.5em 0">Discount code</div><div style="font-size:.9em;line-height:1.8"><div style="display:flex;justify-content:space-between"><span>Subtotal</span><b>$1,695.00</b></div><div style="display:flex;justify-content:space-between"><span>Shipping</span><b>$24.00</b></div><div style="display:flex;justify-content:space-between"><span>Tax (calculated)</span><b>$122.89</b></div><div style="display:flex;justify-content:space-between;border-top:1px solid #E5E7EB;padding-top:.3em;font-size:1.1em"><span>Total</span><b>$1,841.89</b></div></div></div>
+      <div class="m-box" style="background:#E6F4EC;border-color:#B9E0C7;text-align:center"><div style="font-size:1.6em">✓</div><strong>Order TM-10242 confirmed</strong><br><small>Confirmation email sent · tracking to follow</small></div></div>
+    </div></div></div>
+    <div class="stack">
+      <div class="card"><h3>Payment providers (proposed)</h3><p>Payments are processed through <strong>PayPal</strong> and/or <strong>Stripe</strong> using provider-hosted or tokenized card components. Card data is entered directly into the provider’s secure fields — <strong>the Thunder Mounts website never stores raw card numbers</strong>.</p></div>
+      <ul class="list" style="font-size:.9em">
+        <li><div>Contact, billing and shipping addresses with “same as shipping” shortcut</div></li>
+        <li><div>Shipping method selection with carrier rates in production</div></li>
+        <li><div>Discount codes, tax and shipping calculated server-side</div></li>
+        <li><div>Terms, privacy and return-policy links at the point of purchase</div></li>
+        <li><div>Order confirmation page and transactional email</div></li>
+        <li><div>Dealer accounts can be offered invoice / PO terms (configurable)</div></li>
+      </ul>
+      <div class="card" style="border-color:#F3DF8F;background:#FFF7D6"><p style="color:#5E4600"><strong>Prototype note:</strong> the demo checkout simulates the flow only — no live payments are taken. Live payment integration, tax and shipping rules are implemented during production development with the approved providers.</p></div>
+    </div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 08 DEALER PORTAL -->
+<section class="slide dark">
+  <span class="eyebrow">07 · Dealer portal</span>
+  <h2 class="title">A professional account for the installers who sell Thunder Mounts</h2>
+  <div class="cols c12 top stretch" style="margin-top:.4em">
+    <div class="stack">
+      <div class="card"><h3>Application → review → approval</h3><p>Dealers apply online with company details and resale documentation. Thunder Mounts reviews each application in the admin, assigns a pricing tier and approves or declines. The applicant sees a live status: <span class="tag amber">Pending</span> <span class="tag green">Approved</span> <span class="tag red">Not approved</span></p></div>
+      <ul class="list" style="font-size:.9em">
+        <li><div>Dealer login with password recovery</div></li>
+        <li><div>Dealer catalog showing <strong>proposed</strong> tier pricing next to retail</div></li>
+        <li><div>Bulk order form and one-click reorder from history</div></li>
+        <li><div>Order history, tracking status, invoices &amp; documents</div></li>
+        <li><div>Saved addresses, account contact, support and settings</div></li>
+      </ul>
+      <p class="note">Dealer pricing tiers, minimums and payment terms shown in the prototype are examples. In production they are fully configurable by Thunder Mounts and nothing is assumed about current dealer arrangements.</p>
+    </div>
+    <div class="stack" style="display:flex;flex-direction:column;min-height:0">
+      <div class="browser" style="flex:1"><div class="bar"><i></i><i></i><i></i><span class="url">/dealer/account — dealer dashboard</span></div><div class="screen"><div class="m-dealer">
+        <div class="m-side"><div class="who"><span class="tag" style="font-size:.6em">Approved dealer</span><strong>Coastline Door Co.</strong><small>Tier 2 — 10% (proposed)</small></div><div class="n on">Overview</div><div class="n">Dealer catalog</div><div class="n">Bulk order</div><div class="n">Order history</div><div class="n">Saved addresses</div><div class="n">Invoices &amp; documents</div><div class="n">Support</div><div class="n">Account settings</div></div>
+        <div class="m-main"><h4>Welcome back, Renee</h4><div class="sub">Coastline Door Co. · <span class="pill g">Approved</span></div>
+          <div class="m-stats"><div class="m-stat"><small>Open orders</small><strong>2</strong></div><div class="m-stat"><small>Orders (12 mo)</small><strong>6</strong></div><div class="m-stat"><small>Dealer discount</small><strong>10%</strong></div><div class="m-stat"><small>Account contact</small><strong style="font-size:.9em">TM Sales</strong></div></div>
+          <table class="m-table"><tr><th>Order</th><th>Date</th><th>Items</th><th>Total</th><th>Status</th></tr><tr><td><b>TM-10240</b></td><td>Feb 17</td><td>TMS-12 ×6, TMX-19 ×4</td><td>$4,484.40</td><td><span class="pill a">Processing</span></td></tr><tr><td><b>TM-10233</b></td><td>Feb 1</td><td>TMGT-12 ×2</td><td>$1,287.00</td><td><span class="pill g">Completed</span></td></tr></table>
+        </div>
+      </div></div></div>
+      <div class="cols c3" style="gap:.6em;flex:none">
+        <div class="card" style="padding:.8em"><span class="tag amber">Pending</span><p style="margin-top:.4em">Application received — under review. Shop at retail meanwhile.</p></div>
+        <div class="card" style="padding:.8em"><span class="tag green">Approved</span><p style="margin-top:.4em">Tier assigned; dealer pricing and bulk ordering unlocked.</p></div>
+        <div class="card" style="padding:.8em"><span class="tag red">Rejected</span><p style="margin-top:.4em">Reason communicated; may reapply with documentation.</p></div>
+      </div>
+    </div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 09 E-COMMERCE MANAGEMENT -->
+<section class="slide gray">
+  <span class="eyebrow">08 · E-commerce management</span>
+  <h2 class="title">One back office for products, orders, customers and dealers</h2>
+  <div class="cols c21 top stretch" style="margin-top:.4em">
+    <div class="browser"><div class="bar"><i></i><i></i><i></i><span class="url">admin — overview (demo data)</span></div><div class="screen"><div class="m-admin">
+      <div class="aside"><div class="lg"><img src="../demo/assets/img/logo.jpg" alt=""></div><div class="g">Store</div><div class="n on">Overview</div><div class="n">Products</div><div class="n">Orders <b>1</b></div><div class="n">Customers</div><div class="n">Dealers <b>2</b></div><div class="g">Content</div><div class="n">Website pages</div><div class="n">Navigation</div><div class="n">SEO</div><div class="n">Blog &amp; resources</div><div class="n">Gallery</div><div class="n">Media library</div><div class="n">Reviews <b>2</b></div><div class="g">System</div><div class="n">Settings</div></div>
+      <div style="display:flex;flex-direction:column;min-height:0"><div class="m-top"><span class="srch">🔍 Search orders, products, dealers…</span><div class="r"><span class="m-input" style="min-width:0">📅 Last 30 days</span><span>🔔</span><span class="av">TM</span></div></div>
+      <div class="m-main"><h4>Overview</h4><div class="sub">Last 30 days · demo data</div>
+        <div class="m-stats" style="grid-template-columns:repeat(6,1fr)"><div class="m-stat"><small>Orders</small><strong>10</strong></div><div class="m-stat"><small>Gross sales</small><strong>$9.8k</strong></div><div class="m-stat"><small>Avg. order</small><strong>$1.2k</strong></div><div class="m-stat alert"><small>Awaiting</small><strong>1</strong></div><div class="m-stat alert"><small>Dealer apps</small><strong>2</strong></div><div class="m-stat alert"><small>Low stock</small><strong>4</strong></div></div>
+        <div class="m-two"><div class="m-chart"><i style="height:45%"></i><i style="height:57%"></i><i style="height:52%"></i><i style="height:64%"></i><i style="height:72%"></i><i style="height:67%"></i><i style="height:79%"></i><i style="height:83%"></i><i style="height:90%"></i><i style="height:78%"></i><i style="height:86%"></i><i class="hi" style="height:100%"></i></div><div class="m-donut"><svg viewBox="0 0 40 40"><circle r="15.9" cx="20" cy="20" fill="none" stroke="#D11F2B" stroke-width="7" stroke-dasharray="10 90" stroke-dashoffset="25"/><circle r="15.9" cx="20" cy="20" fill="none" stroke="#B7791F" stroke-width="7" stroke-dasharray="20 80" stroke-dashoffset="15"/><circle r="15.9" cx="20" cy="20" fill="none" stroke="#1D5FB4" stroke-width="7" stroke-dasharray="10 90" stroke-dashoffset="-5"/><circle r="15.9" cx="20" cy="20" fill="none" stroke="#1F8A4C" stroke-width="7" stroke-dasharray="40 60" stroke-dashoffset="-15"/><circle r="15.9" cx="20" cy="20" fill="none" stroke="#A7ADB4" stroke-width="7" stroke-dasharray="20 80" stroke-dashoffset="-55"/></svg><div class="lg"><i style="background:#D11F2B"></i>New<br><i style="background:#B7791F"></i>Processing<br><i style="background:#1D5FB4"></i>Shipped<br><i style="background:#1F8A4C"></i>Completed</div></div></div>
+        <table class="m-table" style="margin-top:.6em"><tr><th>Order</th><th>Customer</th><th>Total</th><th>Payment</th><th>Fulfillment</th></tr><tr><td><b>TM-10241</b></td><td>Jordan Reyes</td><td>$743.00</td><td><span class="pill g">Paid</span></td><td><span class="pill r">New</span></td></tr><tr><td><b>TM-10240</b></td><td>Coastline Door Co. <span class="pill b">Dealer</span></td><td>$4,484.40</td><td><span class="pill g">Paid</span></td><td><span class="pill a">Processing</span></td></tr><tr><td><b>TM-10239</b></td><td>Elena Fischer</td><td>$699.00</td><td><span class="pill g">Paid</span></td><td><span class="pill b">Shipped</span></td></tr></table>
+      </div></div>
+    </div></div></div>
+    <div class="stack">
+      <div class="card"><h3>Products &amp; inventory</h3><p>Add/edit products with images, pricing, sale price, stock, availability, specifications, shipping info, SEO fields, featured and draft/published status. Categories and variations supported.</p></div>
+      <div class="card"><h3>Orders</h3><p>New → processing → fulfilled → shipped → completed. Search and filter, order detail with customer info, tracking, internal notes and provider-backed refund / cancellation actions.</p></div>
+      <div class="card"><h3>Customers &amp; dealers</h3><p>Customer profiles with order history and type. Dealer queue with pending / approved / rejected states, business details, document review, pricing tier, account contact and notes.</p></div>
+      <p class="note">All dashboard figures in the prototype are illustrative demo data and are not Thunder Mounts business results.</p>
+    </div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 10 CMS -->
+<section class="slide">
+  <span class="eyebrow">09 · Website CMS</span>
+  <h2 class="title">Own every word, image and menu — without touching code</h2>
+  <div class="cols c3 top stretch" style="margin-top:.4em;gap:1em">
+    <div class="stack">
+      <div class="card" style="padding:1em"><h3>Page editor</h3><div class="m-ed-tb"><span>B</span><span>I</span><span>H2</span><span>H3</span><span>•</span><span>🔗</span></div><div class="m-ed-area"><b style="font-size:1.1em">How Thunder Mounts was created</b><br>For years, installations relied on angle iron — a common but outdated choice…</div><div style="display:flex;gap:.4em;margin-top:.5em"><span class="tag">Draft</span><span class="tag green">Published</span><span class="tag">Preview</span></div></div>
+      <div class="card" style="padding:1em"><h3>Navigation manager</h3><div class="m-nav-item"><span class="grip">⋮⋮</span><strong>Shop Products</strong><span class="sw"></span></div><div class="m-nav-item child"><span class="grip">⋮⋮</span><strong>Track Mount Sets</strong><span class="sw"></span></div><div class="m-nav-item"><span class="grip">⋮⋮</span><strong>Dealer Program</strong><span class="sw"></span></div><div class="m-nav-item"><span class="grip">⋮⋮</span><strong>Warranty (draft)</strong><span class="sw off"></span></div></div>
+    </div>
+    <div class="stack">
+      <div class="card" style="padding:1em"><h3>Blog &amp; resources</h3><div class="m-line" style="padding:.4em 0"><img src="../demo/assets/img/after.jpg" alt=""><div><strong>Angle Iron vs. Engineered Mounts</strong><small>Product Comparison · <span class="pill g">Published</span></small></div></div><div class="m-line" style="padding:.4em 0"><img src="../demo/assets/img/tm-mount-1.jpg" alt=""><div><strong>Choosing the Right Mount Length</strong><small>Buying Guide · <span class="pill g">Published</span></small></div></div><div class="m-line" style="padding:.4em 0;border:0"><img src="../demo/assets/img/set.jpg" alt=""><div><strong>Garage Organization Ideas</strong><small>Draft · <span class="pill a">Draft</span></small></div></div><p class="note" style="margin-top:.4em">Author, category, tags, featured &amp; social image, SEO fields, related products.</p></div>
+      <div class="card" style="padding:1em"><h3>Gallery &amp; media library</h3><div class="m-media"><img src="../demo/assets/img/after.jpg" alt=""><img src="../demo/assets/img/before.jpg" alt=""><img src="../demo/assets/img/hero-dual-sets.jpg" alt=""><img src="../demo/assets/img/tmgt-2.jpg" alt=""><img src="../demo/assets/img/tm-mount-1.jpg" alt=""><img src="../demo/assets/img/tmgt-1.jpg" alt=""><img src="../demo/assets/img/tmmrt-24-1.jpg" alt=""><img src="../demo/assets/img/set.jpg" alt=""></div><p class="note" style="margin-top:.4em">Before/after pairs, project photos, product images — captions, alt text, featured selection.</p></div>
+    </div>
+    <div class="stack">
+      <div class="card" style="padding:1em"><h3>Reviews &amp; testimonials</h3><div class="m-review"><span class="s">★★★★★</span><p>“The symmetry is the first thing you notice…”</p><span class="pill g">Approved</span></div><div class="m-review"><span class="s">★★★★☆</span><p>“Solid hardware and clear instructions.”</p><span class="pill a">Pending</span></div><p class="note">Approve, feature, unpublish; linked to products. Sample reviews only.</p></div>
+      <div class="card" style="padding:1em"><h3>Global settings</h3><ul class="list" style="font-size:.8em"><li><div>Logo, favicon, brand colors, typography, tagline</div></li><li><div>Business contact, social links, header &amp; footer</div></li><li><div>Default SEO &amp; Open Graph image, cookie notice, legal links</div></li><li><div>Analytics placeholders, notification rules, SMTP (secrets kept server-side)</div></li></ul></div>
+      <div class="card" style="padding:.9em;background:#F3F4F6;border-color:#E5E7EB"><p><strong>Also included:</strong> 10 managed pages (Home, About, Products, Dealer Program, Resources, Contact, FAQ, Shipping &amp; Returns, Privacy, Terms), draft/published states, local preview, and “include in navigation” toggles.</p></div>
+    </div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 11 SEO -->
+<section class="slide gray">
+  <span class="eyebrow">10 · SEO management</span>
+  <h2 class="title">Practical search optimization tools built into the CMS</h2>
+  <div class="cols c12 top stretch" style="margin-top:.4em">
+    <div class="stack">
+      <div class="card" style="padding:1em"><div class="eyebrow" style="margin-bottom:.4em">Search snippet preview</div><div class="serp"><div class="u"><i>TM</i><div>thundermounts.com<small>https://www.thundermounts.com/products/tmgt-12</small></div></div><div class="t">TMGT-12 Garage Door Track Mount Set | Thunder Mounts</div><div class="d">TMGT-12 overhead garage door track mount set for one door. Includes chrome ring, hardware and online instructions.</div></div><div style="display:flex;justify-content:space-between;font-size:.75em;margin-top:.6em"><span>Title 52 / 60</span><span>Description 118 / 160</span></div><div class="meter"><i style="width:85%"></i></div><div style="font-size:.72em;color:#5B6168;margin-top:.3em">SEO completeness 85% — add image alt text to reach 100%</div></div>
+      <div class="card" style="padding:1em"><div class="eyebrow" style="margin-bottom:.4em">Redirects from existing URLs</div><table class="m-table" style="font-size:.78em"><tr><th>From</th><th>To</th><th></th></tr><tr><td>/category/all-products</td><td>/shop</td><td><span class="pill x">301</span></td></tr><tr><td>/product-page/tms-12</td><td>/products/tms-12</td><td><span class="pill x">301</span></td></tr><tr><td>/howthundermountwascreated</td><td>/about</td><td><span class="pill x">301</span></td></tr></table></div>
+    </div>
+    <div class="stack">
+      <div class="cols c2" style="gap:.8em;flex:none">
+        <div class="card"><h3>Per-page metadata</h3><p>SEO title, meta description, URL slug, canonical URL, index/noindex and image alt text for pages, products, categories and blog posts.</p></div>
+        <div class="card"><h3>Open Graph / social</h3><p>Default and per-item OG title, description and image with a share-card preview.</p></div>
+        <div class="card"><h3>Technical SEO</h3><p>XML sitemap configuration preview, robots.txt editor, redirect management, breadcrumb settings.</p></div>
+        <div class="card"><h3>Structured data</h3><p>Organization, Product, BreadcrumbList, Article (and FAQ / LocalBusiness when confirmed) via JSON-LD.</p></div>
+      </div>
+      <div class="card"><h3>Content workflow &amp; completeness indicators</h3><p>An internal-linking checklist and per-item completeness scores guide the team through a repeatable optimization routine: target phrase → title &amp; description → headings → alt text → internal links → publish → verify in Search Console.</p></div>
+      <div class="card" style="border-color:#F3DF8F;background:#FFF7D6"><p style="color:#5E4600"><strong>What this is not:</strong> the prototype does not submit sitemaps, analyze live rankings or guarantee results. Production requires server-side metadata rendering, indexable URLs, generated sitemaps, redirect handling and Google Search Console integration — all included in scope.</p></div>
+    </div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 12 BENEFITS -->
+<section class="slide dark">
+  <span class="eyebrow">11 · Business benefits</span>
+  <h2 class="title">What a unified system changes day to day</h2>
+  <p class="sub" style="margin-bottom:1.2em">Operational advantages of running the storefront, dealer program, orders and content from one place. We do not project numerical improvements, rankings or revenue — these are the practical outcomes the system is designed to deliver.</p>
+  <div class="cols c3 top" style="gap:1em;flex:none">
+    <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/></svg></div><h3>Easier product updates</h3><p>Change prices, photos, stock and specifications in minutes. Consistent product pages with the same sections every time — no more uneven listings.</p></div>
+    <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div><h3>Organized order handling</h3><p>Every order moves through a visible workflow with payment status, tracking and notes — and customers are notified automatically at each step.</p></div>
+    <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div><h3>Better dealer access</h3><p>Installers apply, get approved and reorder on their own schedule at the pricing Thunder Mounts sets — reducing phone and email back-and-forth.</p></div>
+    <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.12 2.12 0 0 1 3 3L12 15l-4 1 1-4z"/></svg></div><h3>Improved content control</h3><p>Pages, menus, blog posts, galleries, reviews and SEO fields are all editable by the owner or a designated editor with role-based access.</p></div>
+    <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><h3>A consistent customer experience</h3><p>One design system across storefront, dealer portal and checkout on desktop, tablet and mobile — with the real Thunder Mounts identity throughout.</p></div>
+    <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Security &amp; ownership</h3><p>Provider-hosted payments, encrypted authentication, audit logs and backups. Thunder Mounts owns its content, product data and customer relationships.</p></div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 13 CURRENT VS PROPOSED -->
+<section class="slide">
+  <span class="eyebrow">12 · Current vs. proposed system</span>
+  <h2 class="title">A balanced comparison</h2>
+  <table class="cmp" style="margin-top:.4em">
+    <thead><tr><th style="width:18%">Area</th><th style="width:30%">Current experience (observed)</th><th style="width:30%">Proposed functionality</th><th>Benefit</th></tr></thead>
+    <tbody>
+      <tr><td>Homepage</td><td>Long single page led by a text statement; strong photos; phone number prominent.</td><td>Structured hero, VSS strip, categories, featured products, before/after, resources, reviews, footer.</td><td>Visitors understand the product and can start shopping within one screen.</td></tr>
+      <tr><td>Catalog &amp; product pages</td><td>19 listings, brief descriptions, no filters observed; some shared photos and a $0.00 listing.</td><td>Filters by category/length/availability, search, sort, quick view, rich product pages with specs, box contents, installation PDF, FAQs, related items.</td><td>Fewer pre-sale questions; easier model selection.</td></tr>
+      <tr><td>Cart &amp; checkout</td><td>Wix store cart and checkout (functional today).</td><td>Branded cart drawer and checkout with PayPal + Stripe hosted payments, discount codes, dealer invoice option.</td><td>Consistent experience; provider-level payment security; dealer terms possible.</td></tr>
+      <tr><td>Dealer program</td><td>No public dealer application, pricing or ordering flow observed (generic members page exists).</td><td>Dealer application, approval workflow, tier pricing, bulk order, reorder, order history, invoices.</td><td>A scalable channel for installers without manual quoting.</td></tr>
+      <tr><td>Order &amp; customer management</td><td>Managed within Wix dashboard (not reviewed — not publicly accessible).</td><td>Dedicated order workflow, customer profiles, notes, notifications, refunds via provider.</td><td>Clear status for every order; fewer missed steps.</td></tr>
+      <tr><td>Content &amp; SEO</td><td>Wix page editor and blog; per-page SEO available in Wix.</td><td>Structured CMS with reusable sections, navigation manager, media library, reviews moderation, SEO suite with previews, redirects and structured data.</td><td>Consistency, speed of updates and a repeatable SEO routine.</td></tr>
+      <tr><td>Ownership &amp; extensibility</td><td>Tied to the Wix platform and its apps.</td><td>Custom application with database, roles, APIs and audit logs on hosting agreed with Thunder Mounts.</td><td>Room to grow: integrations, pricing rules, new product lines.</td></tr>
+    </tbody>
+  </table>
+  <p class="note" style="margin-top:.8em">“Observed” reflects what is visible on the public website. Back-office capabilities of the current platform were not audited; items are marked as missing only where no public functionality could be found.</p>
+  <span class="num"></span>
+</section>
+
+<!-- 14 SCOPE & NEXT STEPS -->
+<section class="slide gray">
+  <span class="eyebrow">13 · Project scope &amp; next steps</span>
+  <h2 class="title">What we propose to build, what we need, and how we start</h2>
+  <div class="cols c3 top" style="margin-top:.4em;gap:1em;flex:none">
+    <div class="card"><h3>Development deliverables</h3><ul class="list" style="font-size:.82em"><li><div>Responsive storefront: home, catalog, product pages, cart, checkout, content pages, blog</div></li><li><div>Dealer portal: application, approval, pricing tiers, bulk order, history, documents</div></li><li><div>Admin: products, inventory, orders, customers, dealers, reviews</div></li><li><div>CMS: pages, sections, navigation, media, gallery, settings</div></li><li><div>SEO: metadata, sitemap, redirects, structured data, Search Console</div></li><li><div>Transactional email, notifications, roles, audit log, backups</div></li></ul></div>
+    <div class="card"><h3>Integrations requiring approval</h3><ul class="list" style="font-size:.82em"><li><div><strong>PayPal</strong> and/or <strong>Stripe</strong> merchant accounts</div></li><li><div>Shipping &amp; tracking provider (carrier accounts)</div></li><li><div>Google Analytics 4 and Search Console</div></li><li><div>Google Merchant Center (optional)</div></li><li><div>Email marketing platform (optional)</div></li><li><div>SMTP / transactional email service</div></li></ul><p class="note" style="margin-top:.5em">All integrations are proposed until providers are confirmed.</p></div>
+    <div class="card"><h3>Information needed from Thunder Mounts</h3><ul class="list" style="font-size:.82em"><li><div>Verified product specifications, dimensions, materials, compatibility</div></li><li><div>Installation PDFs, additional product and project photos</div></li><li><div>Dealer program rules: tiers, minimums, terms, approval criteria</div></li><li><div>Shipping zones, rates and tax handling</div></li><li><div>Policies: shipping &amp; returns, privacy, terms, warranty</div></li><li><div>Current hosting / domain access and Wix export of orders &amp; customers</div></li></ul></div>
+  </div>
+  <div style="margin-top:1em">
+    <div class="eyebrow" style="margin-bottom:.5em">Proposed path</div>
+    <div class="timeline">
+      <div class="ph"><b>Step 1</b><strong>Review &amp; feedback</strong><span>Walk through this prototype together; confirm priorities and dealer rules.</span></div>
+      <div class="ph"><b>Step 2</b><strong>Discovery &amp; content</strong><span>Collect specs, photos, policies; audit current URLs for redirects; confirm hosting.</span></div>
+      <div class="ph"><b>Step 3</b><strong>Design sign-off</strong><span>Finalize visual system and key templates from the prototype.</span></div>
+      <div class="ph"><b>Step 4</b><strong>Build &amp; integrate</strong><span>Storefront, dealer portal, admin/CMS, payments, email, SEO.</span></div>
+      <div class="ph"><b>Step 5</b><strong>Test, migrate, launch</strong><span>QA on devices, data migration, redirects, training, go-live and support.</span></div>
+    </div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 15 APPENDIX: ARCHITECTURE -->
+<section class="slide dark">
+  <span class="eyebrow">Appendix · Technical architecture &amp; hosting</span>
+  <h2 class="title">A maintainable full-stack foundation</h2>
+  <p class="sub" style="margin-bottom:1.2em">The prototype is static HTML/CSS/JS for review on GitHub Pages. The production system requires a server, database and secure services. A final hosting recommendation will be made after confirming compatibility with Thunder Mounts’ current domain, hosting and commerce setup — a static host cannot run the production system.</p>
+  <div class="arch" style="flex:none">
+    <div class="box"><h4>Presentation</h4><ul><li>Responsive storefront &amp; dealer portal</li><li>Server-rendered pages for SEO</li><li>Design system from this prototype</li><li>Accessible, mobile-first</li></ul></div>
+    <div class="box"><h4>Application</h4><ul><li>Secure admin &amp; dealer authentication</li><li>Role-based permissions &amp; audit log</li><li>Catalog, pricing rules, inventory</li><li>Orders, fulfillment, notifications</li><li>CMS content &amp; media API</li></ul></div>
+    <div class="box"><h4>Data</h4><ul><li>Relational database (products, orders, customers, dealers, content)</li><li>Object storage for media &amp; documents</li><li>Automated backups &amp; restore</li><li>Export of customer / order data</li></ul></div>
+    <div class="box"><h4>Integrations</h4><ul><li>PayPal / Stripe (tokenized, PCI handled by provider)</li><li>Shipping &amp; tracking API</li><li>SMTP transactional email</li><li>GA4, Search Console, Merchant Center</li><li>Secrets stored server-side only</li></ul></div>
+  </div>
+  <div class="cols c3 top" style="margin-top:1em;gap:1em;flex:none">
+    <div class="card"><h3>Security</h3><p>HTTPS everywhere, hashed passwords, optional 2FA for admins, rate limiting, dependency updates, no raw card data on the server.</p></div>
+    <div class="card"><h3>Hosting (to confirm)</h3><p>Managed cloud hosting with staging and production environments, monitored uptime and scheduled backups. Domain and DNS remain under Thunder Mounts’ control.</p></div>
+    <div class="card"><h3>Handover</h3><p>Admin training, documentation, and a production feature checklist (see documentation folder) so the team can run the site independently.</p></div>
+  </div>
+  <span class="num"></span>
+</section>
+
+<!-- 16 CLOSING -->
+<section class="slide dark closing">
+  <img src="../demo/assets/img/logo.jpg" alt="Thunder Mounts" style="width:min(300px,50%);background:#fff;padding:12px 16px;border-radius:8px;margin:0 auto 32px">
+  <h2>Let’s set the new standard <span>online</span>, too.</h2>
+  <p>Explore the interactive prototype, try the admin demo, and tell us what matters most. We’ll refine the plan with you before development begins.</p>
+  <div class="links"><a href="../demo/index.html">Open storefront prototype</a><a href="../demo/admin.html" class="o">Open admin demo</a><a href="../documentation/README.md" class="o">Documentation</a></div>
+  <p class="note" style="margin-top:2.5em;color:#A7ADB4">Thunder Mounts Garage Systems · Call or text 805-338-6680 · thundermounts.com<br>Prototype data, orders, dealers and reviews are illustrative samples. Product names and list prices reflect the public catalog at the time of preparation.</p>
+  <span class="num"></span>
+</section>
+
+</div>
+
+<div class="controls" role="toolbar" aria-label="Presentation controls">
+  <button id="prev" aria-label="Previous slide">‹ Prev</button>
+  <span class="pos" id="pos">1 / 16</span>
+  <button id="next" aria-label="Next slide">Next ›</button>
+  <button id="mode" title="Toggle full-screen presentation mode (F)">Present</button>
+  <button id="print" title="Print / Save as PDF">Print / PDF</button>
+  <a href="../demo/index.html" title="Open the interactive demo">Demo ↗</a>
+</div>
+<script src="presentation.js"></script>
+</body>
+</html>
