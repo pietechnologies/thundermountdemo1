@@ -669,3 +669,28 @@ table.table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:640px
 .cat-card,.product-card{border-radius:4px}
 .product-card .media img{object-fit:contain}
 .brand img{max-width:220px;object-fit:contain}
+
+/* =====================================================================
+   ICON SIZING
+   Inline SVG icons (see TM.ui.I) ship with a viewBox only and no
+   width/height attributes. Without a rule they fall back to the browser
+   default of 300x150px, which made icons render enormous inside buttons,
+   headings, badges and upload zones. The em-based sizes below keep every
+   icon compact and proportional to its text, matching the small line-icon
+   style used on thundermounts.com. Context rules with class selectors
+   override the 1em baseline by specificity.
+   ===================================================================== */
+svg{width:1em;height:1em;flex:none}
+/* Buttons: icon tracks the button font size (sm ~13px, xs ~12px, lg ~17px) */
+.btn svg{width:1.1em;height:1.1em;flex:none}
+.btn.icon-btn svg{width:22px;height:22px}
+/* Headings with a leading icon (contact cards, resource panels) */
+h1 svg,h2 svg,h3 svg,h4 svg{width:1.05em;height:1.05em;vertical-align:-.14em;margin-right:.28em}
+/* Small status pills, e.g. the secure-checkout badge */
+.badge svg{width:.95em;height:.95em;margin-right:3px}
+/* File/image drop zones get a modest centered glyph */
+.upload-box svg{display:block;width:34px;height:34px;margin:0 auto 8px;color:var(--gray-600)}
+/* Admin date-range filter */
+.date-filter svg{width:15px;height:15px;margin-right:4px}
+/* File-type glyph inside the 44px media thumbnail */
+.thumb svg{width:20px;height:20px}
