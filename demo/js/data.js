@@ -22,9 +22,9 @@
     { id: 'opener-mounts', name: 'Opener Mounts', slug: 'opener-mounts', image: IMG + 'tm-mount-1.jpg', blurb: 'Mounts that attach at the opener motor flanges (TMS / TMX / TML series).' },
     { id: 'marantec-mounts', name: 'Marantec Mounts', slug: 'marantec-mounts', image: IMG + 'tmmrt-2.jpg', blurb: 'TMMRT series mounts for Marantec-style openers.' },
     { id: 'track-mounts', name: 'Track Mount Sets', slug: 'track-mount-sets', image: IMG + 'tmgt-1.jpg', blurb: 'TMGT sets for overhead door track — one set per door.' },
-    { id: 'openers', name: 'Garage Door Openers', slug: 'openers', image: IMG + 'sommer-1.jpg', blurb: 'Opener models currently listed in the catalog.' },
-    { id: 'doors', name: 'Garage Doors', slug: 'garage-doors', image: IMG + 'wayne-dalton.jpg', blurb: 'Frameless and aluminum door options.' },
-    { id: 'lighting', name: 'Lighting & Accessories', slug: 'lighting', image: IMG + 'tmgt-2.jpg', blurb: 'Thunder Lights ring lights (in development).' }
+    { id: 'openers', name: 'Garage Door Openers', slug: 'openers', image: 'https://static.wixstatic.com/media/424d86_dd648faf921945909e5f43911b5dec1e~mv2.jpg', blurb: 'Opener models currently listed in the catalog.' },
+    { id: 'doors', name: 'Garage Doors', slug: 'garage-doors', image: 'https://static.wixstatic.com/media/424d86_6c95a7ed84aa4aee9e79e974cfe43b71~mv2.jpg', blurb: 'Frameless and aluminum door options.' },
+    { id: 'lighting', name: 'Lighting & Accessories', slug: 'lighting', image: 'https://static.wixstatic.com/media/424d86_f452ae18e27842b6ac4a6864c09bb7fdf002.jpg', blurb: 'Thunder Lights ring lights (in development).' }
   ];
 
   var commonBox = ['Mount set (quantity per listing)', 'Mounting hardware', 'Chrome finishing ring (TMGT sets, per current listing)', 'Online installation instructions'];
@@ -83,18 +83,18 @@
       short: 'Thunder Mounts mount for Marantec-style openers. 24-inch maximum length.',
       description: 'Thunder Mounts TMMRT series mount designed for Marantec-style overhead openers. 24 inches max length. (Opener not included.) Note: the current listing shows SKU "TMMRT-29" — to confirm with client.',
       specs: { 'Maximum length': '24 in.', 'Series': 'TMMRT', 'Intended opener style': 'Marantec (to verify)', 'Opener included': 'No' },
-      images: [IMG + 'tmmrt-24-1.jpg', IMG + 'tmmrt-24-2.jpg'] }),
+      images: ['https://static.wixstatic.com/media/424d86_63007af6d4d74b33888cee384f3ba24c~mv2.jpg', IMG + 'tmmrt-24-2.jpg'] }),
     mount({ id: 'tmgt-12', sku: 'TMGT-12', name: 'TMGT-12 Track Mount Set', model: 'TMGT-12', price: 715, salePrice: null, category: 'track-mounts', featured: true,
       short: 'Overhead garage door track mount set for one door. 12-inch maximum length. Instructions, chrome ring and hardware included.',
       description: 'Thunder Mounts TMGT-12 has a maximum length of twelve inches. These come as a set for one overhead door. Online instructions, chrome ring and hardware included.',
       specs: { 'Maximum length': '12 in.', 'Sold as': 'Set for one overhead door', 'Series': 'TMGT (track)', 'Included': 'Chrome ring, hardware, online instructions' },
-      images: [IMG + 'tmgt-1.jpg', IMG + 'tmgt-2.jpg', IMG + 'tmgt-3.jpg'],
+      images: [IMG + 'tmgt-1.jpg', 'https://static.wixstatic.com/media/424d86_f452ae18e27842b6ac4a6864c09bb7fdf002.jpg', 'https://static.wixstatic.com/media/424d86_3e984c2f7e47496380359795b1abbd96~mv2.jpg'],
       seo: { title: 'TMGT-12 Garage Door Track Mount Set | Thunder Mounts', description: 'TMGT-12 overhead garage door track mount set for one door. Includes chrome ring, hardware and online instructions.' } }),
     mount({ id: 'tmgt-19', sku: 'TMGT-19', name: 'TMGT-19 Track Mount Set', model: 'TMGT-19', price: 743, salePrice: null, category: 'track-mounts',
       short: 'Overhead garage door track mount set for one door. 19-inch maximum length.',
       description: 'Thunder Mounts TMGT-19 has a maximum length of nineteen inches. Sold as a set for one overhead door. Online instructions, chrome ring and hardware included.',
       specs: { 'Maximum length': '19 in.', 'Sold as': 'Set for one overhead door', 'Series': 'TMGT (track)' },
-      images: [IMG + 'tmgt-19.jpg', IMG + 'tmgt-1.jpg'] }),
+      images: ['https://static.wixstatic.com/media/424d86_3e984c2f7e47496380359795b1abbd96~mv2.jpg', IMG + 'tmgt-1.jpg'] }),
     mount({ id: 'tmgt-24', sku: 'TMGT-24', name: 'TMGT-24 Track Mount Set', model: 'TMGT-24', price: 743, salePrice: null, category: 'track-mounts', featured: true,
       short: 'Overhead garage door track mount set for one door. 24-inch maximum length.',
       description: 'Thunder Mounts TMGT-24 has a maximum length of twenty-four inches. Sold as a set for one overhead door. Online instructions, chrome ring and hardware included.',
@@ -104,50 +104,50 @@
       short: 'Overhead garage door track mount set for one door. 29-inch maximum length.',
       description: 'Thunder Mounts TMGT-29 has a maximum length of twenty-nine inches. Sold as a set for one overhead door. Online instructions, chrome ring and hardware included. (Sale price shown is a demo-only example of the promotion feature.)',
       specs: { 'Maximum length': '29 in.', 'Sold as': 'Set for one overhead door', 'Series': 'TMGT (track)' },
-      images: [IMG + 'tmgt-29.jpg', IMG + 'tm-mount-3.jpg'] }),
+      images: ['https://static.wixstatic.com/media/424d86_f9b34a9280da426a925d7658e9e51b65~mv2.jpeg', IMG + 'tm-mount-3.jpg'] }),
     mount({ id: 'thunder-lights', sku: 'TMRLED', name: 'Thunder Lights Ring Light', model: 'TMRLED', price: 149.99, salePrice: null, category: 'lighting', availability: 'pre-order', stock: 0,
       short: 'In development: low-voltage ring lights made for Thunder Mounts, connecting to openers with a connection port.',
       description: 'In Development: Thunder Lights are a new line of low-voltage ring lights made for Thunder Mounts to connect to openers that have a connection port. Shown as a "coming soon / notify me" product in the prototype.',
       specs: { 'Type': 'Low-voltage LED ring light', 'Power': 'Opener connection port (to verify)', 'Status': 'In development' },
       box: ['Ring light', 'Connection lead (to verify)'],
-      images: [IMG + 'tmgt-2.jpg', IMG + 'tmgt-3.jpg'] }),
+      images: ['https://static.wixstatic.com/media/424d86_f452ae18e27842b6ac4a6864c09bb7fdf002.jpg', 'https://static.wixstatic.com/media/424d86_3e984c2f7e47496380359795b1abbd96~mv2.jpg'] }),
     mount({ id: 'sommer-overhead-opener', sku: 'SOMMER-OH', name: 'Sommer Overhead Opener', model: 'Sommer', brand: 'Sommer', price: 450, salePrice: null, category: 'openers', stock: 5, availability: 'low-stock',
       short: 'Sommer overhead garage door opener as listed in the current catalog.',
       description: 'Sommer overhead garage door opener. Model details, horsepower, drive type and warranty to be supplied by Thunder Mounts for the production catalog.',
       specs: { 'Brand': 'Sommer', 'Type': 'Overhead opener', 'Drive / HP': 'To verify' }, box: ['Opener unit', 'Manufacturer accessories (to verify)'],
       compat: 'Pairs with Thunder Mounts opener mounts — confirm model fitment with Thunder Mounts.',
-      images: [IMG + 'sommer-1.jpg', IMG + 'sommer-2.jpg'] }),
+      images: ['https://static.wixstatic.com/media/424d86_dd648faf921945909e5f43911b5dec1e~mv2.jpg', 'https://static.wixstatic.com/media/424d86_136828a391a645ee897809715196672e~mv2.jpg'] }),
     mount({ id: '6690l', sku: '6690L', name: '6690L Overhead Opener', model: '6690L', brand: 'To verify', price: 650, salePrice: null, category: 'openers',
       short: 'Model 6690L overhead garage door opener as listed in the current catalog.',
       description: 'Model 6690L overhead garage door opener. Manufacturer, specifications and warranty to be supplied by Thunder Mounts.',
       specs: { 'Model': '6690L', 'Type': 'Overhead opener', 'Specifications': 'To verify' }, box: ['Opener unit', 'Manufacturer accessories (to verify)'],
-      images: [IMG + '6690l-1.png', IMG + '6690l-2.png'] }),
+      images: ['https://static.wixstatic.com/media/424d86_0d559b229f754f6b9130371c66330e0a~mv2.png', 'https://static.wixstatic.com/media/424d86_29eeadaa34c3483b9fc3dba4064c9576~mv2.png'] }),
     mount({ id: 'liftmaster-98032', sku: 'LM-98032', name: 'LiftMaster 98032 DC Heavy-Duty Side-Mount', model: '98032', brand: 'LiftMaster', price: 999.99, salePrice: null, category: 'openers',
       short: 'LiftMaster 98032 DC Heavy Duty Premium Series side-mount sectional opener.',
       description: 'LiftMaster 98032 DC Heavy Duty Premium Series Side-Mount Sectional opener as listed in the current catalog. Full manufacturer specifications to be added in production.',
       specs: { 'Brand': 'LiftMaster', 'Model': '98032', 'Type': 'Side-mount (jackshaft) sectional' }, box: ['Opener unit', 'Manufacturer accessories (to verify)'],
-      images: [IMG + 'liftmaster-98032.jpg'] }),
+      images: ['https://static.wixstatic.com/media/424d86_6f0119b3074f45a38235d84eb2e7e624~mv2.jpg'] }),
     mount({ id: 'marantec-synergy-380', sku: 'Marantec380', name: 'Marantec Synergy 380', model: 'Synergy 380', brand: 'Marantec', price: 750, salePrice: null, category: 'openers',
       short: 'Marantec Synergy 380 overhead garage door opener.',
       description: 'Marantec Synergy 380 overhead garage door opener as listed in the current catalog. Manufacturer specifications to be added in production.',
       specs: { 'Brand': 'Marantec', 'Model': 'Synergy 380', 'Type': 'Overhead opener' }, box: ['Opener unit', 'Manufacturer accessories (to verify)'],
       compat: 'Suggested pairing: TMMRT series mounts (to be confirmed by Thunder Mounts).',
-      images: [IMG + 'marantec-380.jpg'] }),
+      images: ['https://static.wixstatic.com/media/424d86_158bd39bcc63455d95c56b5306ee6e97~mv2.jpg'] }),
     mount({ id: 'genie-edge', sku: 'Genie #41410W', name: 'Genie Edge Mounted Opener', model: '41410W', brand: 'Genie', price: 725, salePrice: null, category: 'openers',
       short: 'Genie edge-mounted (wall-mount) garage door opener.',
       description: 'Genie Edge Mounted Garage Door Opener (Genie #41410W) as listed in the current catalog. Manufacturer specifications to be added in production.',
       specs: { 'Brand': 'Genie', 'Model': '41410W', 'Type': 'Edge / wall-mount opener' }, box: ['Opener unit', 'Manufacturer accessories (to verify)'],
-      images: [IMG + 'genie-edge.jpg'] }),
+      images: ['https://static.wixstatic.com/media/424d86_bfe8c267ee3e4773ad2f9403e72cb952~mv2.jpg'] }),
     mount({ id: 'alumadoors', sku: 'ALUMA', name: 'Alumadoors Aluminum Garage Door', model: 'Alumadoors', brand: 'Alumadoors', price: 0, salePrice: null, category: 'doors', availability: 'quote', stock: 0,
       short: 'Aluminum full-view style garage door. Available in multiple door sizes — request a quote.',
       description: 'Alumadoors aluminum garage door listed with a "Door Sizes" option on the current site and no fixed price. The prototype shows this as a request-a-quote product. Sizes, glazing and finish options to be supplied by Thunder Mounts.',
       specs: { 'Brand': 'Alumadoors', 'Options': 'Door sizes (to verify)', 'Pricing': 'Quote' }, box: ['Door sections and hardware per quote'],
-      images: [IMG + 'alumadoors-1.jpg', IMG + 'alumadoors-2.jpg'] }),
+      images: ['https://static.wixstatic.com/media/424d86_7214469123244d1fb250570cc48976b1~mv2.jpg', 'https://static.wixstatic.com/media/424d86_5210c941883b47a48f8426d43f7ee5cd~mv2.jpg'] }),
     mount({ id: 'wayne-dalton-frameless', sku: 'WD-FRAMELESS', name: 'Wayne Dalton Frameless Garage Door', model: 'Frameless', brand: 'Wayne Dalton', price: 2200, salePrice: null, category: 'doors', stock: 2, availability: 'low-stock',
       short: 'Wayne Dalton frameless-style garage door as listed in the current catalog.',
       description: 'Wayne Dalton Frameless Garage Door as listed in the current catalog at $2,200.00. Sizes, glazing and finish to be confirmed by Thunder Mounts.',
       specs: { 'Brand': 'Wayne Dalton', 'Style': 'Frameless', 'Sizes': 'To verify' }, box: ['Door sections and hardware per order'],
-      images: [IMG + 'wayne-dalton.jpg'] })
+      images: ['https://static.wixstatic.com/media/424d86_6c95a7ed84aa4aee9e79e974cfe43b71~mv2.jpg'] })
   ];
 
   // ---- Fictional customers (sample data) ----
@@ -184,7 +184,7 @@
 
   var pages = [
     { id: 'home', title: 'Home', slug: '/', status: 'published', inNav: true, hero: IMG + 'hero-dual-sets.jpg', heading: 'The new installation standard for garage doors and openers.', subheading: 'Thunder Mounts replaces outdated angle iron with engineered mounting systems that deliver Value. Symmetry. Safety. VSS™', ctaText: 'Shop Products', ctaLink: '#/shop', ctaText2: 'Become a Dealer', ctaLink2: '#/dealer/apply', content: '<p>ThunderMounts sets the standard in installation excellence. Our advanced mounting systems for garage doors and openers are designed for today and prepared for tomorrow.</p>', seo: { title: 'Thunder Mounts | Garage Door & Opener Mounting Systems', description: 'Thunder Mounts engineered mounting systems replace angle iron with a clean, symmetrical, safer installation standard for garage doors and openers.', canonical: 'https://www.thundermounts.com/', index: true, ogImage: IMG + 'hero-dual-sets.jpg' }, updated: '2026-02-18' },
-    { id: 'about', title: 'About Thunder Mounts', slug: '/about', status: 'published', inNav: true, hero: IMG + 'set.jpg', heading: 'How Thunder Mounts was created', content: '<p>For years, garage door and opener installations relied on angle iron — a common but outdated choice. Thunder Mounts was created to replace it with a modern, engineered solution tailored for today\'s garages: strong, clean and symmetrical.</p><p><em>Founder story, company history and team photos to be supplied by Thunder Mounts.</em></p>', seo: { title: 'About Thunder Mounts | The VSS™ Installation Standard', description: 'Learn how Thunder Mounts was created and why installers are moving beyond angle iron.', index: true }, updated: '2026-02-10' },
+    { id: 'about', title: 'About Thunder Mounts', slug: '/about', status: 'published', inNav: true, hero: 'https://static.wixstatic.com/media/424d86_dcb08f843594428ab475269b6036a396~mv2.jpg', heading: 'How Thunder Mounts was created', content: '<p>For years, garage door and opener installations relied on angle iron — a common but outdated choice. Thunder Mounts was created to replace it with a modern, engineered solution tailored for today\'s garages: strong, clean and symmetrical.</p><p><em>Founder story, company history and team photos to be supplied by Thunder Mounts.</em></p>', seo: { title: 'About Thunder Mounts | The VSS™ Installation Standard', description: 'Learn how Thunder Mounts was created and why installers are moving beyond angle iron.', index: true }, updated: '2026-02-10' },
     { id: 'products', title: 'Shop Products', slug: '/shop', status: 'published', inNav: true, heading: 'All Products', content: '<p>Browse opener mounts, track mount sets, openers and doors.</p>', seo: { title: 'Shop Garage Door Mounts & Openers | Thunder Mounts', description: 'Browse TMS, TMX, TML, TMMRT and TMGT mounting systems plus openers and doors.', index: true }, updated: '2026-02-18' },
     { id: 'dealer-program', title: 'Dealer Program', slug: '/dealer', status: 'published', inNav: true, heading: 'Partner with Thunder Mounts', content: '<p>Garage door installers and distributors can apply for a dealer account to access dealer pricing, bulk ordering and order history.</p><p><em>Program terms to be defined by Thunder Mounts.</em></p>', seo: { title: 'Dealer Program | Thunder Mounts', description: 'Apply for a Thunder Mounts dealer account.', index: true }, updated: '2026-02-12' },
     { id: 'resources', title: 'Resources', slug: '/resources', status: 'published', inNav: true, heading: 'Installation guides & resources', content: '<p>Mounting instructions, product guides and articles.</p>', seo: { title: 'Installation Resources | Thunder Mounts', description: 'Mounting instructions and guides for Thunder Mounts products.', index: true }, updated: '2026-02-01' },
@@ -218,19 +218,19 @@
     { id: 'b1', title: 'Angle Iron vs. Engineered Mounts: What Changes Inside the Garage', slug: 'angle-iron-vs-engineered-mounts', author: 'Thunder Mounts', category: 'Product Comparison', tags: ['angle iron', 'installation', 'VSS'], status: 'published', date: '2026-02-05', image: IMG + 'after.jpg', excerpt: 'A side-by-side look at the traditional angle-iron method and a symmetrical engineered mount — and why the difference is easy to see.', content: '<p><em>Proposed sample article — not an existing Thunder Mounts publication.</em></p><p>For decades, perforated angle iron has been the default way to hang garage door openers. It works, but it was never designed for the job. This article compares the two approaches in terms of appearance, rigidity and installation time.</p>', related: ['tms-12', 'tmgt-12'], seo: { title: 'Angle Iron vs. Engineered Garage Door Opener Mounts', description: 'Compare traditional angle iron with Thunder Mounts engineered mounting systems.' } },
     { id: 'b2', title: 'Preparing Your Garage for an Opener Mount Installation', slug: 'preparing-for-installation', author: 'Thunder Mounts', category: 'Installation', tags: ['installation', 'preparation'], status: 'published', date: '2026-01-22', image: IMG + 'hero-dual-sets.jpg', excerpt: 'A simple checklist of measurements, tools and ceiling considerations before you install.', content: '<p><em>Proposed sample article — not an existing Thunder Mounts publication.</em></p><p>Before installation day, confirm your ceiling height, locate framing members, and measure from the ceiling to the opener mounting flange to select the right maximum length (12, 19, 24 or 29 inches).</p>', related: ['tml-24', 'tml-29'], seo: { title: 'How to Prepare for a Garage Door Opener Mount Installation', description: 'Measurements, tools and ceiling checks before installing Thunder Mounts.' } },
     { id: 'b3', title: 'Choosing the Right Mount Length: 12, 19, 24 or 29 Inches', slug: 'choosing-mount-length', author: 'Thunder Mounts', category: 'Buying Guide', tags: ['sizing', 'TMS', 'TML'], status: 'published', date: '2026-01-10', image: IMG + 'tm-mount-1.jpg', excerpt: 'How ceiling height and opener position determine which Thunder Mounts model fits your garage.', content: '<p><em>Proposed sample article — not an existing Thunder Mounts publication.</em></p><p>Thunder Mounts are offered in four maximum lengths. This guide walks through how to measure and which series fits each scenario.</p>', related: ['tms-12', 'tmx-19', 'tml-24', 'tml-29'], seo: { title: 'Which Thunder Mount Length Do I Need?', description: 'A sizing guide for TMS, TMX and TML opener mounts.' } },
-    { id: 'b4', title: 'Garage Organization Ideas That Start at the Ceiling', slug: 'garage-organization-ceiling', author: 'Thunder Mounts', category: 'Garage Organization', tags: ['organization', 'design'], status: 'draft', date: '', image: IMG + 'set.jpg', excerpt: 'A clean, symmetrical opener installation sets the tone for an organized, showroom-quality garage.', content: '<p><em>Draft — proposed sample article.</em></p><p>Outline: lighting, ceiling storage, cable management, and finishing touches like Thunder Lights.</p>', related: ['thunder-lights'], seo: { title: '', description: '' } }
+    { id: 'b4', title: 'Garage Organization Ideas That Start at the Ceiling', slug: 'garage-organization-ceiling', author: 'Thunder Mounts', category: 'Garage Organization', tags: ['organization', 'design'], status: 'draft', date: '', image: 'https://static.wixstatic.com/media/424d86_dcb08f843594428ab475269b6036a396~mv2.jpg', excerpt: 'A clean, symmetrical opener installation sets the tone for an organized, showroom-quality garage.', content: '<p><em>Draft — proposed sample article.</em></p><p>Outline: lighting, ceiling storage, cable management, and finishing touches like Thunder Lights.</p>', related: ['thunder-lights'], seo: { title: '', description: '' } }
   ];
 
   var gallery = [
     { id: 'g1', file: 'after-thunder-mounts.jpg', src: IMG + 'after.jpg', category: 'before-after', caption: 'After — Thunder Mounts installed', alt: 'Garage ceiling with symmetrical black Thunder Mounts supporting the opener and track', featured: true },
     { id: 'g2', file: 'before-angle-iron.jpg', src: IMG + 'before.jpg', category: 'before-after', caption: 'Before — conventional angle iron', alt: 'Garage ceiling with perforated angle iron supporting an opener', featured: false },
     { id: 'g3', file: 'dual-sets-white-garage.jpg', src: IMG + 'hero-dual-sets.jpg', category: 'projects', caption: 'Dual sets in a finished white garage', alt: 'Bright white garage ceiling with two Thunder Mounts sets', featured: true },
-    { id: 'g4', file: 'thunder-mounts-set.jpg', src: IMG + 'set.jpg', category: 'projects', caption: 'Thunder Mounts set installed', alt: 'Thunder Mounts set installed on a garage ceiling', featured: false },
+    { id: 'g4', file: 'thunder-mounts-set.jpg', src: 'https://static.wixstatic.com/media/424d86_dcb08f843594428ab475269b6036a396~mv2.jpg', category: 'projects', caption: 'Thunder Mounts set installed', alt: 'Thunder Mounts set installed on a garage ceiling', featured: false },
     { id: 'g5', file: 'tms-series.jpg', src: IMG + 'tm-mount-1.jpg', category: 'products', caption: 'TMS / TMX / TML series', alt: 'Thunder Mounts opener mount product photo', featured: false },
     { id: 'g6', file: 'tmgt-track-set.jpg', src: IMG + 'tmgt-1.jpg', category: 'products', caption: 'TMGT track mount set', alt: 'TMGT track mount set product photo', featured: false },
-    { id: 'g7', file: 'tmgt-chrome-ring.jpg', src: IMG + 'tmgt-2.jpg', category: 'products', caption: 'TMGT with chrome ring', alt: 'TMGT mount with chrome finishing ring', featured: false },
-    { id: 'g8', file: 'tmmrt-marantec.jpg', src: IMG + 'tmmrt-24-1.jpg', category: 'products', caption: 'TMMRT Marantec mount', alt: 'TMMRT mount for Marantec openers', featured: false },
-    { id: 'g9', file: 'tmgt-installed.jpg', src: IMG + 'tmgt-3.jpg', category: 'projects', caption: 'TMGT set, installed view', alt: 'TMGT track mount installed in a garage', featured: false },
+    { id: 'g7', file: 'tmgt-chrome-ring.jpg', src: 'https://static.wixstatic.com/media/424d86_f452ae18e27842b6ac4a6864c09bb7fdf002.jpg', category: 'products', caption: 'TMGT with chrome ring', alt: 'TMGT mount with chrome finishing ring', featured: false },
+    { id: 'g8', file: 'tmmrt-marantec.jpg', src: 'https://static.wixstatic.com/media/424d86_63007af6d4d74b33888cee384f3ba24c~mv2.jpg', category: 'products', caption: 'TMMRT Marantec mount', alt: 'TMMRT mount for Marantec openers', featured: false },
+    { id: 'g9', file: 'tmgt-installed.jpg', src: 'https://static.wixstatic.com/media/424d86_3e984c2f7e47496380359795b1abbd96~mv2.jpg', category: 'projects', caption: 'TMGT set, installed view', alt: 'TMGT track mount installed in a garage', featured: false },
     { id: 'g10', file: 'tml-29.jpg', src: IMG + 'tml-29.jpg', category: 'products', caption: 'TML-29', alt: 'TML-29 opener mount', featured: false }
   ];
 
@@ -244,7 +244,7 @@
   ];
 
   var settings = {
-    brand: { name: 'Thunder Mounts', tagline: 'Value. Symmetry. Safety. VSS™', logo: IMG + 'logo.jpg', favicon: IMG + 'logo-full.jpg', primary: '#D11F2B', dark: '#17191C', font: 'Inter' },
+    brand: { name: 'Thunder Mounts', tagline: 'Value. Symmetry. Safety. VSS™', logo: 'https://static.wixstatic.com/media/424d86_b9b306c6a9dc47539b15a600c0a59ba9~mv2.jpg/v1/crop/x_0,y_323,w_1536,h_379/fill/w_705,h_173,al_c,q_80/a_digital_vector_vector_logo_features_th.jpg', favicon: 'https://static.wixstatic.com/media/424d86_b9b306c6a9dc47539b15a600c0a59ba9~mv2.jpg', primary: '#C82026', dark: '#181818', font: 'Inter' },
     contact: { phone: '805-338-6680', email: 'info@thundermounts.com (to confirm)', address: 'California, USA (address to confirm)', hours: 'Mon–Fri 8am–5pm PT (to confirm)' },
     social: { facebook: '', instagram: '', youtube: '', linkedin: '' },
     header: { announcement: 'Dealer program now accepting applications — apply online in minutes.', showAnnouncement: true, showPhone: true, sticky: true },

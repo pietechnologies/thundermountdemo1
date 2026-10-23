@@ -5,12 +5,12 @@
    ===================================================================== */
 
 :root{
-  --ink:#17191C;            /* charcoal black */
-  --graphite:#272B30;
+  --ink:#181818;            /* charcoal black */
+  --graphite:#292929;
   --graphite-2:#32373D;
-  --red:#D11F2B;            /* tuned toward the red in the official logo */
-  --red-dark:#AD1620;
-  --red-soft:#FDECEC;
+  --red:#C82026;            /* tuned toward the red in the official logo */
+  --red-dark:#A5181E;
+  --red-soft:#FCF0F0;
   --white:#FFFFFF;
   --gray-50:#F8F9FA;
   --gray-100:#F3F4F6;
@@ -660,3 +660,12 @@ table.table{width:100%;border-collapse:collapse;font-size:.88rem;min-width:640px
 /* responsive 4-up product grid (homepage featured, related products) */
 .product-grid.cols-4{grid-template-columns:repeat(auto-fill,minmax(230px,1fr))}
 .product-grid.cols-4 .product-card .media{aspect-ratio:1/1}
+
+/* Brand refinements: keep the existing responsive storefront and page layout. */
+.site-header{border-bottom:3px solid var(--red)}
+.hero h1{font-weight:900}
+.hero-media img{object-position:center}
+.vss-strip{border-bottom:1px solid var(--gray-200)}
+.cat-card,.product-card{border-radius:4px}
+.product-card .media img{object-fit:contain}
+.brand img{max-width:220px;object-fit:contain}

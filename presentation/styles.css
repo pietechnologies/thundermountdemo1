@@ -1,5 +1,5 @@
 /* Thunder Mounts — Proposal deck styles (screen + print/PDF) */
-:root{--ink:#17191C;--graphite:#272B30;--red:#D11F2B;--red-soft:#FDECEC;--gray:#F3F4F6;--steel:#A7ADB4;--g600:#5B6168;--font:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
+:root{--ink:#181818;--graphite:#292929;--red:#C82026;--red-soft:#FCF0F0;--gray:#F3F4F6;--steel:#A7ADB4;--g600:#5B6168;--font:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif}
 *{box-sizing:border-box}
 html,body{margin:0;background:#0F1113;font-family:var(--font);color:var(--ink);-webkit-font-smoothing:antialiased}
 img{max-width:100%;display:block}
@@ -14,7 +14,7 @@ p{margin:0}
 .slide .foot-brand{position:absolute;left:28px;bottom:16px;display:flex;align-items:center;gap:8px;font-size:.65em;color:var(--steel);font-weight:700;letter-spacing:.12em;text-transform:uppercase}
 .slide .foot-brand img{height:18px;border-radius:3px;background:#fff;padding:2px 4px}
 .eyebrow{display:inline-block;font-size:.72em;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--red);margin-bottom:.8em}
-.dark .eyebrow{color:#F28B8B}
+.dark .eyebrow{color:#F3A1A4}
 .title{font-size:2.6em;margin-bottom:.35em}
 .sub{font-size:1.1em;color:var(--g600);max-width:36em;line-height:1.5}
 .dark .sub{color:#C9CED4}
@@ -91,7 +91,7 @@ p{margin:0}
 .m-announce{background:var(--ink);color:#fff;font-size:.75em;text-align:center;padding:.4em;font-weight:600}
 .m-hero{display:grid;grid-template-columns:1fr 1fr;background:var(--ink);color:#fff;min-height:11em}
 .m-hero .copy{padding:1.6em 1.4em}
-.m-hero .copy .eyebrow{font-size:.65em;margin-bottom:.6em;color:#F28B8B}
+.m-hero .copy .eyebrow{font-size:.65em;margin-bottom:.6em;color:#F3A1A4}
 .m-hero .copy h3{font-size:1.6em;margin-bottom:.4em;line-height:1.1}
 .m-hero .copy h3 span{color:var(--red)}
 .m-hero .copy p{font-size:.8em;color:#C9CED4;margin-bottom:.9em;line-height:1.4}
@@ -237,7 +237,7 @@ p{margin:0}
 /* architecture */
 .arch{display:grid;grid-template-columns:repeat(4,1fr);gap:1em;align-items:stretch}
 .arch .box{background:var(--graphite);border:1px solid rgba(255,255,255,.1);border-radius:10px;padding:1.1em}
-.arch .box h4{font-size:.9em;color:#F28B8B;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.6em}
+.arch .box h4{font-size:.9em;color:#F3A1A4;text-transform:uppercase;letter-spacing:.1em;margin-bottom:.6em}
 .arch .box ul{margin:0;padding:0;list-style:none;font-size:.82em;line-height:1.7;color:#C9CED4}
 .timeline{display:grid;grid-template-columns:repeat(5,1fr);gap:.8em}
 .timeline .ph{background:#fff;border:1px solid #E5E7EB;border-radius:8px;padding:1em;position:relative}

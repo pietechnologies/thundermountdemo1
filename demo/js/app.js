@@ -45,8 +45,8 @@
   // ---------------- layout ----------------
   function applyBrand() {
     var b = db.get('settings').brand;
-    document.documentElement.style.setProperty('--red', b.primary || '#D11F2B');
-    document.documentElement.style.setProperty('--ink', b.dark || '#17191C');
+    document.documentElement.style.setProperty('--red', b.primary || '#C82026');
+    document.documentElement.style.setProperty('--ink', b.dark || '#181818');
     if (b.font && b.font !== 'Inter') document.documentElement.style.setProperty('--font', "'" + b.font + "',Inter,system-ui,sans-serif");
   }
   function renderHeader(r) {
@@ -136,7 +136,7 @@
     var page = db.page('home') || {}; var prods = db.get('products').filter(function (p) { return p.featured && p.status === 'published'; }).slice(0, 4);
     var cats = db.get('categories'); var reviews = db.get('reviews').filter(function (r) { return r.status === 'approved' && r.featured; }).slice(0, 3);
     var posts = db.get('blog').filter(function (b) { return b.status === 'published'; }).slice(0, 3);
-    var html = '<section class="hero"><div class="container inner"><div class="hero-copy"><span class="eyebrow" style="color:#F28B8B">The VSS™ Installation Standard</span><h1>' + esc(page.heading || '').replace(/installation standard/i, '<span>installation standard</span>') + '</h1><p class="lead">' + esc(page.subheading || '') + '</p>' +
+    var html = '<section class="hero"><div class="container inner"><div class="hero-copy"><span class="eyebrow" style="color:#F3A1A4">Built for today. Ready for tomorrow.</span><h1>' + esc(page.heading || '').replace(/installation standard/i, '<span>installation standard</span>') + '</h1><p class="lead">' + esc(page.subheading || '') + '</p>' +
       '<div class="cta-row"><a class="btn btn-primary btn-lg" href="' + esc(page.ctaLink || '#/shop') + '">' + esc(page.ctaText || 'Shop Products') + ' ' + I.arrow + '</a><a class="btn btn-outline-light btn-lg" href="' + esc(page.ctaLink2 || '#/dealer/apply') + '">' + esc(page.ctaText2 || 'Become a Dealer') + '</a></div>' +
       '<div class="hero-stats"><div><strong>4 lengths</strong><span>12 · 19 · 24 · 29 in.</span></div><div><strong>5 series</strong><span>TMS · TMX · TML · TMMRT · TMGT</span></div><div><strong>Made for installers</strong><span>Homeowners welcome</span></div></div></div>' +
       '<div class="hero-media"><img src="' + esc(page.hero || db.IMG + 'hero-dual-sets.jpg') + '" alt="Thunder Mounts dual sets installed in a white garage"><span class="photo-cap">Actual Thunder Mounts installation</span></div></div></section>' +
@@ -182,7 +182,7 @@
 
   // ---------------- DEALER PORTAL ----------------
   function authLayout(side, form) {
-    return '<div class="auth-wrap"><div class="auth-side"><span class="eyebrow" style="color:#F28B8B">Thunder Mounts Dealer Portal</span>' + side + '</div><div class="auth-form"><div class="card"><div class="card-body">' + form + '</div></div></div></div>';
+    return '<div class="auth-wrap"><div class="auth-side"><span class="eyebrow" style="color:#F3A1A4">Thunder Mounts Dealer Portal</span>' + side + '</div><div class="auth-form"><div class="card"><div class="card-body">' + form + '</div></div></div></div>';
   }
   var dealerSide = '<h2>Built for installers, distributors and door companies.</h2><p style="color:#C9CED4">A dedicated account for ordering Thunder Mounts at proposed dealer pricing, reordering in bulk and tracking every shipment.</p><ul class="checklist"><li>Proposed dealer pricing tiers (configured by Thunder Mounts)</li><li>Bulk ordering and one-click reorders</li><li>Order history, tracking and invoices</li><li>Saved shipping addresses and account contacts</li></ul><div class="notice notice-warn" style="background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2);color:#fff">' + I.warn + '<div><strong>Demonstration only.</strong> No real authentication, passwords or confidential pricing. Any email and password opens the demo account.</div></div>';
 
